@@ -2,11 +2,17 @@ Hisune Tiny MVC Framework Demo App
 =========
 * (https://github.com/hisune/tinymvc)
 * Author: Hisune(http://hisune.com)
+* 示例网站：http://hisune.com
 
 安装方法
 =========
 * 下载所有文件到任意目录，在`composer.json`所在的目录，执行`composer install`
-* composer帮助：(https://getcomposer.org)
+* composer帮助：(https://getcomposer.org)  
+> linux：  
+> `curl -sS https://getcomposer.org/installer | php`  
+> `mv composer.phar /usr/local/bin/composer`  
+> windows:  
+> https://getcomposer.org/Composer-Setup.exe
 
 目录结构介绍
 ========
@@ -46,7 +52,7 @@ Hisune Tiny MVC Framework Demo App
 * http://127.0.0.1/page/3  路由重写举例
 * http://127.0.0.1/admin/datatable  `ThemeBuilder` 之 `datatables` 举例
 * http://127.0.0.1/admin/tab  `ThemeBuilder` 之 `tabs` 举例
-
+* http://hisune.com 整站由Tiny MVC搭建
 ```
 About
 ========
