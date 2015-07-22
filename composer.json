@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
-        "hisune/tinymvc": ">=1.4"
+        "hisune/tinymvc": ">=1.5"
     },
     "config": {
         "process-timeout": 1800
