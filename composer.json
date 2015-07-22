@@ -21,5 +21,13 @@
         "psr-0": {
             "": "app/"
         }
-    }
+    },
+	"authors": [
+        {
+            "name": "Hisune",
+            "email": "hi@hisune.com",
+            "homepage": "http://hisune.com/",
+            "role": "Founder and project lead"
+        }
+    ]
 }
