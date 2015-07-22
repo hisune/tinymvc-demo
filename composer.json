@@ -12,9 +12,14 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
-        "hisune/yii2": ">=1.4"
+        "hisune/tinymvc": ">=1.4"
     },
     "config": {
         "process-timeout": 1800
+    },
+	"autoload": {
+        "psr-0": {
+            "": "app/"
+        }
     }
 }
