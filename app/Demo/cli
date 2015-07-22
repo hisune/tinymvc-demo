@@ -1,0 +1,39 @@
+#!/usr/bin/env php
+<?php
+define('APPLICATION', 'demo');
+
+// Require bootstrap
+// System Start Time
+define('START_TIME', microtime(true));
+
+// System Start Memory
+define('START_MEMORY_USAGE', memory_get_usage());
+
+require(__DIR__ . '/../../vendor/autoload.php');
+
+// Global Config
+\Tiny\Config::$application = APPLICATION;
+\Tiny\Config::$configDir = __DIR__ . '/config/';
+\Tiny\Config::$varDir = __DIR__ . '/var/';
+\Tiny\Config::$controller = array('Crontab', 'app/Crontab');
+
+// show errors
+ini_set('display_errors', 'off');
+
+// timezone
+date_default_timezone_set(Tiny\Config::config()->timezone);
+
+// Enable global error handling
+register_shutdown_function(array('\Tiny\Exception', 'fatal'));
+
+// Run
+try{
+
+    $dispatch = new \Tiny\Dispatch(\Tiny\Config::route());
+    $dispatch->controller();
+
+}catch (Exception $e){
+
+    \Tiny\Exception::exception($e);
+
+}

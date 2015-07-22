@@ -1,18 +1,20 @@
 {
-    "keywords": ["tiny framework", "tiny MVC", "hisune"],
-    "authors": [
-        {
-            "name": "Hisune",
-            "homepage": "http://hisune.com"
-        }
-    ],
-    "require": {
-        "tiny/tiny": "*",
-        "php": ">=5.3.0"
+    "name": "hisune/tinymvc-demo",
+    "description": "Hisune TinyMVC Basic Project Template",
+    "keywords": ["Hisune TinyMVC", "framework", "basic", "project template"],
+    "homepage": "http://hisune.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/hisune/tinymvc/issues",
+        "source": "https://github.com/hisune/tinymvc"
     },
-    "autoload": {
-        "psr-0": {
-            "": "app/"
-        }
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "hisune/yii2": ">=1.4"
+    },
+    "config": {
+        "process-timeout": 1800
     }
 }

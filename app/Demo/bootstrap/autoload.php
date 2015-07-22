@@ -22,7 +22,8 @@ require(__DIR__ . '/../../../vendor/autoload.php');
 \Tiny\Config::$varDir = __DIR__ . '/../var/';
 \Tiny\Config::$viewDir = __DIR__ . '/../view/';
 \Tiny\Config::$controller = array('Controller', 'app/Controller');
-\Tiny\Config::$error404 = array('Index', 'error404');
+\Tiny\Config::$authPurview = true;
+\Tiny\Config::$authPurviewMethod = [ucfirst(APPLICATION) . '\\' . 'Model' . '\\Purview', 'updateGroupPurview'];
 
 // show errors
 ini_set('display_errors', 'off');
