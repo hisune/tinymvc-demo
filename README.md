@@ -6,7 +6,7 @@ Hisune Tiny MVC Framework Demo App
 
 安装方法
 =========
-* 下载所有文件到任意目录，在`composer.json`所在的目录，执行`composer install`
+* 执行`composer create-project hisune/tinymvc-demo`
 * composer帮助：(https://getcomposer.org)  
 > linux：  
 > `curl -sS https://getcomposer.org/installer | php`  
