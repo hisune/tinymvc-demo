@@ -39,21 +39,6 @@ Hisune Tiny MVC Framework Demo App
 ```
 * 只允许app1目录暴露，多应用只需加app2， app3等。
 
-示例中可访问的url
-========
-* http://127.0.0.1  hello world
-* http://127.0.0.1/3  多个hello world
-* http://127.0.0.1/index/template  模板示例
-* http://127.0.0.1/index/create  添加数据
-* http://127.0.0.1/index/update  更新数据
-* http://127.0.0.1/index/delete  删除数据
-* http://127.0.0.1/param  路由重写举例
-* http://127.0.0.1/param/2  路由重写举例
-* http://127.0.0.1/page/3  路由重写举例
-* http://127.0.0.1/admin/datatable  `ThemeBuilder` 之 `datatables` 举例
-* http://127.0.0.1/admin/tab  `ThemeBuilder` 之 `tabs` 举例
-* http://hisune.com 整站由Tiny MVC搭建
-```
 About
 ========
 **Created by Hisune [lyx](http://hisune.com)**
