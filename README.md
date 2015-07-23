@@ -39,6 +39,13 @@ Hisune Tiny MVC Framework Demo App
 ```
 * 只允许app1目录暴露，多应用只需加app2， app3等。
 
+示例
+========
+themeBuilder 之 dataTable
+![admin panel](https://raw.githubusercontent.com/hisune/images/master/tinymvc_admin_1.jpg)
+themeBuilder 之 mod
+![admin panel](https://raw.githubusercontent.com/hisune/images/master/tinymvc_admin_2.jpg)
+
 About
 ========
 **Created by Hisune [lyx](http://hisune.com)**
